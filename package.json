@@ -8,5 +8,8 @@
   "keywords": [],
   "author": "Deivid",
   "license": "MIT",
-  "description": "Sistema de Gestão de Veículos"
+  "description": "Sistema de Gestão de Veículos",
+  "dependencies": {
+    "sequelize": "^6.37.8"
+  }
 }

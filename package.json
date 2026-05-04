@@ -1,0 +1,12 @@
+{
+  "name": "exec_carro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "Deivid",
+  "license": "MIT",
+  "description": "Sistema de Gestão de Veículos"
+}

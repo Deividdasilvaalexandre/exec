@@ -12,19 +12,36 @@
 
     </header>
     <main>
-        <select id="nome">Escolha o nome do carro</select>
-        <option value="nome">Escolha o nome do carro</option>
+        <label for="">
+            <select id="nome">
+                <option value="onix">Onix</option>
+                <option value="civic">Civic</option>
+                <option value="mobi">Mobi</option>
+            </select>
+        </label>
+        
+        <label for="">
+            <select id="marca">
+                <option value="honda">Honda</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="fiat">Fiat</option>
+            </select>
+        </label>
+        
+        <label for="">
+            <select id="categoria">
+                <option value="luxo">Luxo</option>
+                <option value="sedan">Sedan</option>
+                <option value="popular">Popular</option>
+            </select>
+        </label>
+        
+        <label for="">
+        <input type="text" id="ano">
+        </label>
 
-        <select id="marca">Escolha a marca do carro</select>
-        <option value="marca">Escolha a marca do carro</option>
-        
-        <select id="categoria">Escolha a categoria do carro</select>
-        <option value="categoria">Escolha a categoria do carro</option>
-        
-        <select id="ano">
-            <option value="ano"></option>
-        </select>
-    <button onclick="">Resposta</button>
+        <button onclick="res">Resposta</button>
+        <div id="res"></div>
 
     </main>
     <footer>

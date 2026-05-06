@@ -23,4 +23,8 @@ const Carro = db.define('carro',{
         type: DataTypes.DATE,
         allowNull: false
     }
+},{
+    timestamps: false
 })
+
+module.exports = Carro
